@@ -1,0 +1,15 @@
+
+.baseline{
+    display: flex;
+    flex-direction: row;
+}
+
+.imageBlock{
+    display: flex;
+    flex-direction: column;
+    size: min(10%, 30vw);
+}
+
+.imageBlock >img{
+    width:max(30vw, 400px);
+}
