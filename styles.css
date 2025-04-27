@@ -7,9 +7,16 @@
 .imageBlock{
     display: flex;
     flex-direction: column;
+
     size: min(10%, 30vw);
 }
 
 .imageBlock >img{
     width:max(30vw, 400px);
+}
+
+.titleBlock{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    color: white;
 }
