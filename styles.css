@@ -84,10 +84,15 @@ label{
     font-weight: bold;
 }
 
+input{
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
 input:focus{
-    color:blue;
+    border-color:blue;
 }
 
 input:user-invalid{
-    color:red;
+    border-color:red;
 }
