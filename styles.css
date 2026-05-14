@@ -6,6 +6,8 @@
     border-radius: 2px;
     border-style: solid;
     border-color: black;
+    width: min(1200px,100%);
+    height:min(618px,100%);
     
 }
 
@@ -66,7 +68,10 @@
     color: white;
     background-color: #596D48;
     justify-self: left;
+    margin: 25px;
     margin-left: 16px;
+    border-radius: 10px;
+    font-weight: bold;
 
 }
 
