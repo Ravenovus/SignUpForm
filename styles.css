@@ -24,8 +24,11 @@
 
 .titleBlock{
     position:absolute;
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 0, 0, 0.438);
     color: white;
+    width:max(30vw, 400px);
+    margin-top: 140px;
+    text-align: center;
 }
 
 .formBlockWhole{
